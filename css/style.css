@@ -7,8 +7,8 @@ font-family: 'Poppins', sans-serif;
 background-color: #ffffff;
 color:#0c0c0c;
 }
-.white-text{
-    color: #ffffff;
+.container{
+    border: 1px solid #0c0c0c;
 }
 .darkblue{
     color: #0f2480;
@@ -19,6 +19,20 @@ color:#0c0c0c;
 h1{
     font-size:64px;
     font-weight: bold;
+    margin-bottom: 25px;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.bl{
+    border-left: 1px solid #3554d1;
+}
+.box img{
+ margin-bottom: 15px;
 }
 section{
     padding-bottom: 90px;
@@ -27,9 +41,84 @@ section{
     margin-top: 75px;
     position: relative;
 }
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+.header-container h2{
+    padding-left: 5px;
+    position: relative;
+    border-left: 7px solid #0f2480;
+    font-weight: bold;
+}
+
+.btn-box a, .btn-orange a{
+    display: inline;
+    padding: 7px 30px;
+    text-decoration: none;
+    border: 1px solid #3554d1;
+    background-color: transparent;
+    border-radius: 25px;
+    transition: all 0.3s;  
+ }
+ .btn-box a:hover{
+    background-color: #3554d1;
+    color: #ffffff;
+ }
+ .btn-orange a:hover{
+    background-color: #ffc107;
+    border: #ffc107;
+ }
+ 
 /* common css */
 /* header */
 .header{
     background-image: url(../image/hero-bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 60% 100%;
+}
+.Slider p{
+    margin-bottom: 45px;
 }
 /* header : the end */
+/* About */
+
+.about{
+   padding-top: 85px;
+   padding-left: 50px;
+}
+
+.about p {
+    padding-bottom: 25px;
+}
+/* About : the end */
+/* Sales */
+ .Sale .header-container{
+    align-items: center;
+}
+.sale-container{
+    margin-bottom: 45px;
+}
+.Sale .btn-box{
+    display: flex;
+    justify-content: center;
+}
+
+/* Sales:the end */
+/* Pricing */
+.Pricing .header-container{
+    align-items: center;
+    margin-bottom: 25px;
+}
+.Pricing .btn-orange{
+    display: flex;
+    justify-content: center;
+}
+.btn-orange a{
+    background-color: #0f2480;
+    color: #ffffff;
+}
+
+/* Pricing: the end */
