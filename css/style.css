@@ -1,0 +1,35 @@
+/* common css */
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: 'Poppins', sans-serif;
+background-color: #ffffff;
+color:#0c0c0c;
+}
+.white-text{
+    color: #ffffff;
+}
+.darkblue{
+    color: #0f2480;
+}
+.lightblue{
+    color:#3554d1;
+}
+h1{
+    font-size:64px;
+    font-weight: bold;
+}
+section{
+    padding-bottom: 90px;
+}
+.Slider{
+    margin-top: 75px;
+    position: relative;
+}
+/* common css */
+/* header */
+.header{
+    background-image: url(../image/hero-bg.jpg);
+}
+/* header : the end */
