@@ -24,7 +24,7 @@ h1{
 h2{
     font-weight: bold;
 }
-h3{
+h3,h4{
     font-weight: bold;
     font-size: 18px;
 }
@@ -65,10 +65,8 @@ section{
     background-color: #3554d1;
     color: #ffffff;
  }
- .btn-orange a:hover{
-    background-color: #ffc107;
-    border: #ffc107;
- }
+ 
+ 
  
 /* common css */
 /* header */
@@ -120,5 +118,30 @@ section{
     background-color: #0f2480;
     color: #ffffff;
 }
-
+.price-box{
+    background-color: #0f2480;
+    color: #ffffff;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.content-box{
+    background-color: #3554d1;
+    color: #ffffff;
+    padding:45px 0;
+}
+.content-box h2{
+    position: relative;
+    padding-bottom: 20px;
+}
+.content-box h2:before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 45px;
+    height: 5px;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+}
 /* Pricing: the end */
