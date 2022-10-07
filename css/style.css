@@ -31,9 +31,7 @@ h3,h4{
 .bl{
     border-left: 1px solid #3554d1;
 }
-.box img{
- margin-bottom: 15px;
-}
+
 section{
     padding-bottom: 90px;
 }
@@ -65,9 +63,6 @@ section{
     background-color: #3554d1;
     color: #ffffff;
  }
- 
- 
- 
 /* common css */
 /* header */
 .header{
@@ -145,3 +140,16 @@ section{
     background-color: #ffffff;
 }
 /* Pricing: the end */
+/* Deal */
+.image-box{
+    display: flex;
+    align-items: center;
+}
+.deal .img-box img {
+    max-width: 100%;
+}
+.box img{
+    margin-right: 15px;
+   }
+
+/* Deal : the end */
