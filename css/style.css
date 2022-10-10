@@ -127,7 +127,7 @@ section{
 }
 .content-box h2{
     position: relative;
-    padding-bottom: 20px;
+    padding: 30px;
 }
 .content-box h2:before{
     content: "";
