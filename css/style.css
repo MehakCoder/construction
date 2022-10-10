@@ -122,7 +122,8 @@ section{
 .content-box{
     background-color: #3554d1;
     color: #ffffff;
-    padding:45px 0;
+    padding: 50px;
+    margin-bottom: 25px;
 }
 .content-box h2{
     position: relative;
@@ -138,6 +139,9 @@ section{
     border-radius: 10px;
     transform: translateX(-50%);
     background-color: #ffffff;
+}
+.content-box p{
+    line-height: 2.5;
 }
 /* Pricing: the end */
 /* Deal */
