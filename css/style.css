@@ -16,6 +16,9 @@ color:#0c0c0c;
 .lightblue{
     color:#3554d1;
 }
+.bg-blue{
+    background-color: #0f2480;
+}
 h1{
     font-size:64px;
     font-weight: bold;
@@ -155,5 +158,5 @@ section{
 .box img{
     margin-right: 15px;
    }
-
 /* Deal : the end */
+
